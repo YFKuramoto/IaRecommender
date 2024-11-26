@@ -7,7 +7,7 @@ from scipy.sparse import hstack, csr_matrix
 import matplotlib.pyplot as plt
 
 #caminho do arquivo
-dataset_path = "C:/Users/Yuri/Documents/VSCode/dataset.csv"
+dataset_path = "C:/Users/Yuri/Documents/VSCode/dataset.csv" #substituir pelo seu caminho
 
 # Carregar o dataset
 music_data = pd.read_csv(dataset_path)
